@@ -8,7 +8,7 @@ import type {
 export class OktaApi implements ICredentialType {
 	name = 'N8nDevOktaApi';
 
-	displayName = 'okta API';
+	displayName = 'Okta API';
 
 	icon: Icon = { light: 'file:../nodes/Okta/okta.svg', dark: 'file:../nodes/Okta/okta.dark.svg' };
 
@@ -22,7 +22,7 @@ export class OktaApi implements ICredentialType {
 			default: 'http://okta.local',
 			required: true,
 			placeholder: 'http://okta.local',
-			description: 'The base URL of your okta API server',
+			description: 'The base URL of your Okta API server',
 		},
 		{
 			displayName: 'API Key',

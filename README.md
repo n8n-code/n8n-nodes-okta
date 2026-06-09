@@ -53,12 +53,48 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Create User | Post create user in group |
-| Credential Operations | Put set recovery credential, Post change password, Post change recovery question, Post forgot password one time code |
-| Lifecycle Operations | Post activate user, Post deactivate user, Post set temp password, Post reset password, Post suspend user, Post unlock user, Post unsuspend user |
-| Default | Get find user, Get current user, Get user, Get assigned app links, Get groups for user, Post reset factors, Delete clear user sessions |
+<details>
+<summary><b>Create User</b> (1 operations)</summary>
+
+- Post Create User in Group
+
+</details>
+
+<details>
+<summary><b>Credential Operations</b> (4 operations)</summary>
+
+- Put Set Recovery Credential
+- Post Change Password
+- Post Change Recovery Question
+- Post Forgot Password One Time Code
+
+</details>
+
+<details>
+<summary><b>Lifecycle Operations</b> (7 operations)</summary>
+
+- Post Activate User
+- Post Deactivate User
+- Post Set Temp Password
+- Post Reset Password
+- Post Suspend User
+- Post Unlock User
+- Post Unsuspend User
+
+</details>
+
+<details>
+<summary><b>Default</b> (7 operations)</summary>
+
+- Get Find User
+- Get Current User
+- Get User
+- Get Assigned App Links
+- Get Groups for User
+- Post Reset Factors
+- Delete Clear User Sessions
+
+</details>
 
 ---
 

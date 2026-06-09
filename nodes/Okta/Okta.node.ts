@@ -6,14 +6,14 @@ import { defaultDescription } from './resources/default';
 
 export class Okta implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'okta',
+		displayName: 'Okta',
 		name: 'N8nDevOkta',
 		icon: { light: 'file:./okta.svg', dark: 'file:./okta.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Okta User API provides operations to manage users in your organization',
-		defaults: { name: 'okta' },
+		defaults: { name: 'Okta' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
